@@ -1,0 +1,27 @@
+# Application Configuration
+
+# Event Viewer Settings
+event_viewer:
+  refresh_interval: 30  # seconds
+  max_events: 1000
+  default_log_type: "System"
+
+# Event Manager Settings
+event_manager:
+  history_retention: 86400  # seconds (24 hours)
+  max_rules: 100
+  history_directory: "history"
+  history_file_format: "event_history_%Y%m%d.csv"
+
+# Logging Settings
+logging:
+  level: "INFO"
+  file_retention_days: 30
+  max_file_size_mb: 10
+
+# UI Settings
+ui:
+  theme: "default"
+  language: "en"
+  show_system_tray: true
+  minimize_to_tray: true 

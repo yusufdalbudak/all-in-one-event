@@ -1,0 +1,5 @@
+pywin32==306
+PyQt5==5.15.9
+python-dateutil==2.8.2
+pandas==2.1.0
+pyyaml==6.0.1 
